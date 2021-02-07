@@ -35,6 +35,8 @@ namespace TextToTriangle
                 position--;
                 amount += 2;
             }
+
+            Console.ReadKey();
         }
     }
 }
