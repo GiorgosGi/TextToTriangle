@@ -10,7 +10,9 @@ namespace TextToTriangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter any string: ");
+            //Give a string and the programm converts it to a "triange"
+
+            Console.WriteLine("Enter any string and press enter: ");
             string text = Console.ReadLine();
 
             if (text.Length % 2 == 0)
